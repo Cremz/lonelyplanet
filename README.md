@@ -17,5 +17,3 @@ It parses the destination.xml file and generates an array with hashes containing
 
 #LonelyPlanetParser
 The main class has an initializer that gets the two source xml files and creates instances of the two model classes. Then, for each country in the taxonomy.content array, it calls the generate_document method which writes the required info to a file with the destination id as a filename.
-
-#Running the app
